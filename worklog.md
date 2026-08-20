@@ -8,6 +8,6 @@ Daily entries of real work — appended automatically by a scheduled job.
 - New public repos: **ink-dictation** (macOS AI dictation app), **esl-automation-suite** (teaching pipelines), **worklog** (this log)
 - READMEs and social previews added to all project repos
 - Secret scan (gitleaks) across all public repos — clean; embedded API keys removed from Ink before publishing
-- New public repo: **minecraft-english-server** — Apple × Notion style overview page (chat-color level ladder A0–D1, quests, 15-plugin stack) deployed to GitHub Pages
+- Built the Minecraft English Server repo (overview page + docs), later removed from GitHub: the 4 custom plugins now live in separate public repos (chat2earn, englishprogression, vocabquiz, dailyenglish)
 - Removed **ink-dictation** from GitHub (app not ready for public release; keys stay local)
 - Full secret audit of all repos: clean. Push protection blocked a Groq key before it left the machine; gitleaks CI added to content repos

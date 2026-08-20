@@ -1,14 +1,14 @@
 # 📓 Worklog
 
-A daily, machine-readable log of public work — appended automatically every
+A daily, machine-readable log of public work. Appended automatically every
 evening by a scheduled Hermes agent job.
 
 The log keeps the profile honest and alive: what was actually built, fixed,
-or shipped each day, in the owner's own words. No filler — real entries only.
+or shipped each day, in the owner's own words. No filler, real entries only.
 
 ## Format
 
-`worklog.md` — one `## YYYY-MM-DD` entry per day, newest first.
+`worklog.md`: one `## YYYY-MM-DD` entry per day, newest first.
 
 ## Automation
 
