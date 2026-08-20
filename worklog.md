@@ -11,3 +11,5 @@ Daily entries of real work — appended automatically by a scheduled job.
 - Built the Minecraft English Server repo (overview page + docs), later removed from GitHub: the 4 custom plugins now live in separate public repos (chat2earn, englishprogression, vocabquiz, dailyenglish)
 - Removed **ink-dictation** from GitHub (app not ready for public release; keys stay local)
 - Full secret audit of all repos: clean. Push protection blocked a Groq key before it left the machine; gitleaks CI added to content repos
+- Removed presentation, presentation-video, and student-materials from GitHub. The C1 exercise pipeline is now the c1-visual-data-writing skill (cheat sheet, 3 chart tasks, image generation prompts, HTML template)
+- Banner images added to all 4 plugin repos; C1 exercise + chart samples moved into esl-automation-suite examples
