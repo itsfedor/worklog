@@ -2,6 +2,15 @@
 
 Daily entries of real work — appended automatically by a scheduled job.
 
+## 2026-08-21
+
+- Pushed the casino polish to itsfedor/demo-casino: Aviator-style Crash rebuild, Stake-style Dice controls, casino-standard audio and pacing for Plinko and Slots, sound ordering fix.
+- Pushed a docs follow-up: dropped 2 em-dashes from the demo-casino README. Verified local HEAD matches remote main, Pages redeployed.
+- Read all 31 Edvibe FAQ articles on exercise creation and built the edvibe-exercise-format skill: syntax cheat sheet plus rules for 26 exercise templates.
+- Generated 3 Edvibe exercises (vocab matching, mixed conditionals) from an Engoo article on the Meta trial.
+- Rewired the daily GitHub worklog cron into a two-phase approval flow: drafts go to the Telegram bot, nothing is pushed until approved.
+- Fired a test run of the approval flow end to end.
+
 ## 2026-08-20
 
 - GitHub portfolio overhaul: profile README with banner and featured projects
