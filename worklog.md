@@ -8,6 +8,8 @@ Daily entries of real work — appended automatically by a scheduled job.
 - Edited the 16-minute homework review recording: silence removed, bilingual captions added, 720p render with verified segment timing.
 - Turned the same recording into a student-facing HTML homework summary (Student A, Unit 3): 11 task sections, color-coded fixes, test-english practice tips, strengths box.
 - Published the first skill repo on GitHub (itsfedor/hermes-skills): harness-agnostic SKILL.md, README, MIT license, social preview, 11 topics; added the repo to the GitHub profile featured projects.
+- Installed video-use, the browser-use team's agent-native video editing toolkit (21.2k stars, MIT): uv sync plus 6 Python deps, registered as a Hermes skill so it auto-loads on any video edit request. Found transcription is hardcoded to ElevenLabs Scribe, so the pipeline needs an ElevenLabs key or an OpenAI whisper-1 fallback.
+- SEO pass over all 8 public repos: rewrote descriptions to the 2026 top-repo pattern (what it is, who it is for, stack), expanded topics from 6-9 to 9-13 per repo, linked the demo-casino homepage to its live GitHub Pages. Verified by reading the state back via the API.
 
 ## 2026-08-27
 
