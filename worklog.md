@@ -5,6 +5,7 @@ Daily entries of real work — appended automatically by a scheduled job.
 ## 2026-09-15
 
 - Portfolio overhaul: audited all 10 public repos — gitleaks over full history (no credentials, current or historical), personal names redacted from 4 files (history rewrite queued for 3 repos), missing build files + Gradle wrappers added to englishprogression, vocabquiz and dailyenglish, download steps, dependency links and troubleshooting sections added to every plugin README, the missing LICENSE added to this repo, and all social-preview images refreshed in a Notion-dark style.
+- Renamed the GitHub account to itsfedor and rebranded every repo, image and commit to Fedor Molodtsov: cross-links, GitHub Pages URLs, release links and git history all updated.
 
 ## 2026-08-29
 
