@@ -2,11 +2,15 @@
 
 Daily entries of real work — appended automatically by a scheduled job.
 
+## 2026-09-15
+
+- Portfolio overhaul: audited all 10 public repos — gitleaks over full history (no credentials, current or historical), personal names redacted from 4 files (history rewrite queued for 3 repos), missing build files + Gradle wrappers added to englishprogression, vocabquiz and dailyenglish, download steps, dependency links and troubleshooting sections added to every plugin README, the missing LICENSE added to this repo, and all social-preview images refreshed in a Notion-dark style.
+
 ## 2026-08-29
 
 - Finished the video pipeline end to end: Deepgram Nova-3 transcription with EN+RU detection verified live (raw-body upload workaround for the sandbox proxy), normalizer, transcript packer.
 - Edited the 16-minute homework review recording: silence removed, bilingual captions added, 720p render with verified segment timing.
-- Turned the same recording into a student-facing HTML homework summary (Student A, Unit 3): 11 task sections, color-coded fixes, test-english practice tips, strengths box.
+- Turned the same recording into a student-facing HTML homework summary (A2 student, Unit 3): 11 task sections, color-coded fixes, test-english practice tips, strengths box.
 - Published the first skill repo on GitHub (itsfedor/hermes-skills): harness-agnostic SKILL.md, README, MIT license, social preview, 11 topics; added the repo to the GitHub profile featured projects.
 - Installed video-use, the browser-use team's agent-native video editing toolkit (21.2k stars, MIT): uv sync plus 6 Python deps, registered as a Hermes skill so it auto-loads on any video edit request. Found transcription is hardcoded to ElevenLabs Scribe, so the pipeline needs an ElevenLabs key or an OpenAI whisper-1 fallback.
 - SEO pass over all 8 public repos: rewrote descriptions to the 2026 top-repo pattern (what it is, who it is for, stack), expanded topics from 6-9 to 9-13 per repo, linked the demo-casino homepage to its live GitHub Pages. Verified by reading the state back via the API.
@@ -45,6 +49,6 @@ Daily entries of real work — appended automatically by a scheduled job.
 - Built the Minecraft English Server repo (overview page + docs), later removed from GitHub: the 4 custom plugins now live in separate public repos (chat2earn, englishprogression, vocabquiz, dailyenglish)
 - Removed **ink-dictation** from GitHub (app not ready for public release; keys stay local)
 - Full secret audit of all repos: clean. Push protection blocked a Groq key before it left the machine; gitleaks CI added to content repos
-- Removed presentation, presentation-video, and student-materials from GitHub. The C1 exercise pipeline is now the c1-visual-data-writing skill (cheat sheet, 3 chart tasks, image generation prompts, HTML template)
+- Removed presentation, presentation-video, and a personal student-materials repo from GitHub. The C1 exercise pipeline is now the c1-visual-data-writing skill (cheat sheet, 3 chart tasks, image generation prompts, HTML template)
 - Banner images added to all 4 plugin repos; C1 exercise + chart samples moved into esl-automation-suite examples
 - Skill reworked: c1-visual-data-writing absorbed into test-english-adapt (any test-english.com exercise personalized for a student, with research on site formats and chart image generation)
