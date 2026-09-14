@@ -6,6 +6,7 @@ Daily entries of real work — appended automatically by a scheduled job.
 
 - Portfolio overhaul: audited all 10 public repos — gitleaks over full history (no credentials, current or historical), personal names redacted from 4 files (history rewrite queued for 3 repos), missing build files + Gradle wrappers added to englishprogression, vocabquiz and dailyenglish, download steps, dependency links and troubleshooting sections added to every plugin README, the missing LICENSE added to this repo, and all social-preview images refreshed in a Notion-dark style.
 - Added a screenshot gallery, pipeline-architecture diagram and copy-paste agent-install instructions to esl-automation-suite; cross-linked the four plugin READMEs and made every badge clickable.
+- Merged hermes-skills into esl-automation-suite: video-review summaries now install with the suite (one command, 3 skills, 6 pipelines); hermes-skills archived as a pointer so old links keep working.
 - Renamed the GitHub account to itsfedor and rebranded every repo, image and commit to Fedor Molodtsov: cross-links, GitHub Pages URLs, release links and git history all updated.
 
 ## 2026-08-29
