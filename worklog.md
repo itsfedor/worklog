@@ -8,6 +8,11 @@ Daily entries of real work — appended automatically by a scheduled job.
 - Added a screenshot gallery, pipeline-architecture diagram and copy-paste agent-install instructions to esl-automation-suite; cross-linked the four plugin READMEs and made every badge clickable.
 - Merged hermes-skills into esl-automation-suite: video-review summaries now install with the suite (one command, 3 skills, 6 pipelines); hermes-skills archived as a pointer so old links keep working.
 - Renamed the GitHub account to itsfedor and rebranded every repo, image and commit to Fedor Molodtsov: cross-links, GitHub Pages URLs, release links and git history all updated.
+- Built units 3–5 of the A2+ per-episode course through the CLI harness — 7 blocks per unit, verified live in the book.
+- Pushed per-agent install docs (hermes-agent / claude-code / codex) to esl-automation-suite; install path re-verified in clean HOME environments.
+- Built a B2 guide from a Fireship video into a 27-block Edvibe lesson (5 stages, answer keys hidden).
+- Attached the companion 6-exercise B2 homework to a live sheet with one command; verified on the platform (1.1–1.6).
+- Published the CLI harness as a public repo — itsfedor/cli-anything-edvibe: README with use cases and installation, trimmed protocol notes, tests.
 
 ## 2026-08-29
 
