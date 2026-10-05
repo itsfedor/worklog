@@ -3,6 +3,8 @@
   <img alt="Worklog — a daily log of real shipped work by Fedor Molodtsov" src="assets/banner-light.png" width="100%">
 </picture>
 
+<p align="center"><sub><b>Fedor Molodtsov</b> — AI automation engineer · <a href="https://github.com/itsfedor">github.com/itsfedor</a></sub></p>
+
 # 📓 Worklog
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
