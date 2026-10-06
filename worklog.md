@@ -2,6 +2,15 @@
 
 Daily entries of real work — appended automatically by a scheduled job.
 
+## 2026-10-06
+
+- Built the next B2 lesson in the spoken-lessons series — WSJ's "Repo: How Roughly $1 Trillion Moves Overnight": 34 exercises across the six-stage flipped format — a pre-watching prep page, warm-up, vocabulary, watching and questions (gist, an 8-question auto-checked test, six timestamped watching segments with hidden answer keys, and a 15-sentence / 16-gap exact-listening block whose every gap was cross-checked chunk-wise against two independent caption tracks), speaking and an extra stage. Verified live: clean API read-back and a full DOM sweep — cover, video embed, 16/16 gap boxes, working dropdowns and the book tile at 256px; the eighteenth verified build and the fifth flipped wave.
+- Extended the student area to every student with existing analyses: new per-student accounts with credentials kept 1:1 with the platform's own student cards, and seven legacy reviews rebuilt to the current design canon (v1.4) with reproducible per-document builders — originals kept intact. Verified on production: API 60/60, UI 41/41 and a new 34-check per-student E2E, plus md5 parity between both edge nodes.
+- Cleared the platform's homework queue end to end: surveyed every active student and closed all 29 waiting sheets — the exercise-only sheets checked against their answer keys through a new exercise-level error digest (ten exercise types, cross-checked against the platform's own autocorrect flags), and the writing / recording sheets reviewed and closed. Three fresh reviews went live in the student area — an essay review, a writing + audio review with the recording embedded, and a research-task review — each lint-clean (9/9) and QA'd with zero errors or overflow.
+- Applied the new feedback canon across the published archive: every review now carries at most two actionable tips, the most evidenced for that document. Caught and fixed a builder bug mid-wave, re-linted, and re-verified all eleven published reviews live.
+- Launched the teacher dashboard at itsfedor.cc/progress/dashboard — per-student homework status (waiting check / checked of total / not submitted), hand-kept focus zones and next-step notes across 18 active students, on a teacher login that can open any student's file while student isolation stays intact (cross-access 404s re-verified). Its data rebuilds from a live platform scan three times a week.
+- Wrote the day's rules back into the tooling skills: the cabinet's multi-student account playbook and QA suites, the legacy-review adaptation builders, the dual-caption-corpus pitfall for lesson waves, and the feedback canon's two-tips limit.
+
 ## 2026-10-05
 
 - Re-audited the whole account (15 repos): a secret scan over full history, a PII sweep across working trees, commit graphs, 74 images and sampled video frames. Scrubbed a client reference and student names that had leaked into an example teacher-kit and the landing demo, rewrote history on three repos (filter-repo + force-push) and verified every fix on a fresh clone; the affected example screenshot was re-rendered and OCR-checked.
