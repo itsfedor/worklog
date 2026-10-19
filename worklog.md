@@ -2,6 +2,14 @@
 
 Daily entries of real work — appended automatically by a scheduled job.
 
+## 2026-10-19
+
+- Rebuilt the teacher dashboard on itsfedor.cc as a product of its own: a new «Дашборд» brand with its own mark and favicon, the Ученики / Уроки tabs carried through a full visual restyle, the filter panel moved under the lesson cards, type sizes unified across the finance cards, and the calendar got an active-hours selector with corrected time placement — local QA 55/55 and the production suite 49/49 after the deploy.
+- Gave the dashboard real lesson accounting: the lesson calendar now tracks paid / unpaid / planned status, the "lessons left" count follows the actual payment boundary instead of the week's edge, and manually edited rows are locked so the nightly import cannot overwrite them — checked by reading the written values back out of KV.
+- Added audible alerts for new trial requests to the dashboard: a client-side poll of the site's own KV endpoint every 45 seconds, no model calls involved, so notifications cost nothing to run.
+- Ran a web-analytics audit across the five public pages: every counter confirmed to send hits on the wire, one dead goal (the /offer/ page view) revived by adding its snippet, and the fix deployed from a branch after a browser check.
+- Built the VPS ops layer that now watches the public site: a 5-minute uptime checker over five URLs, hourly traffic and lead alerts with a once-a-day debounce, a weekly analytics digest, nightly gzipped backups of every Cloudflare KV namespace (368 keys on the first run) and a weekly Hetzner snapshot with retention — all on systemd user timers, each verified in its own log.
+
 ## 2026-10-16
 
 - Wired audience segmentation into the site's tracking stack: every event on the four marketing pages now carries a for_teachers / for_students category — server-side copies included — the homepage separates the trial-booking Lead from a click into the teachers section, and trial requests send hashed advanced-matching fields with their UTM tags journaled for the dashboard. The privacy policy gained the web-analytics clause, the live tracking QA suite passed 4/4, and the deploy was verified on both edge nodes.
