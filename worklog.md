@@ -2,6 +2,15 @@
 
 Daily entries of real work — appended automatically by a scheduled job.
 
+## 2026-10-20
+
+- Rebuilt the site's checkout on one product catalog — every SKU bills with its own name and a unique invoice id; 13/13 test payments matched.
+- Wired the payment result callback: orders journaled to KV, Meta Purchase with content ids, idempotent repeats, a forged signature answered with 401.
+- Made the thank-you page proof-based: product and amount appear only after its own order-status endpoint confirms payment, so the analytics goal fires once.
+- Took a private desktop app from first commit to v0.4.1 — 34 commits, 17 releases, every CI run green after two early failures.
+- Audited a CI bill: 35 macOS runner jobs at the 10× multiplier accounted for 1,860 of the 2,000 monthly Actions minutes — on-demand builds proposed.
+- Wrote the checkout contract into the site skill: single catalog, both signature checks, result callback and order-status path.
+
 ## 2026-10-19
 
 - Rebuilt the teacher dashboard on itsfedor.cc as a product of its own: a new «Дашборд» brand with its own mark and favicon, the Ученики / Уроки tabs carried through a full visual restyle, the filter panel moved under the lesson cards, type sizes unified across the finance cards, and the calendar got an active-hours selector with corrected time placement — local QA 55/55 and the production suite 49/49 after the deploy.
