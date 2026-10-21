@@ -2,6 +2,15 @@
 
 Daily entries of real work — appended automatically by a scheduled job.
 
+## 2026-10-21
+
+- Cut a private desktop app's CI bill to near zero — self-hosted Mac runner, hosted minutes only on tags; v0.4.2 → v0.4.6.
+- Moved the app's screen QA off paid runners: 14 screens on a free Linux job, no unexpected problems, 39 seconds.
+- Shipped its in-app updater: a Pages function serving version, DMG URL and sha256, rewritten by every publish.
+- Built the B2 lesson «Why Social Health Is Key to Happiness and Longevity» — 40 exercises, six stages, live-editor verified.
+- Rebuilt a B2 lesson around article-hunt email mocks: three Gmail screenshots, 19 article errors, 10 target words unmarked, verifier clean.
+- Wrote both patterns into the authoring skills — the email-mock variant and the media-upload quirk that produced four phantom images.
+
 ## 2026-10-20
 
 - Rebuilt the site's checkout on one product catalog — every SKU bills with its own name and a unique invoice id; 13/13 test payments matched.
