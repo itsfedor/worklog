@@ -2,6 +2,15 @@
 
 Daily entries of real work — appended automatically by a scheduled job.
 
+## 2026-10-22
+
+- Built an answer-engine visibility tracker — 15 prompts across Tavily and DeepSeek, 90 citation slots scored, JSONL history.
+- Audited 15 distribution surfaces with live HTTP codes and moderation rules; baseline: the domain is cited in 0/15 AI answers.
+- Built an audit pipeline: one JSON spec renders HTML and PDF reports — 20 sites swept, one hijacked sitemap found.
+- Shipped the student progress card to production; a local analysis DB now holds 4.6k answers across 18 accounts.
+- Unified dashboard tariffs and lesson packages with the school platform's canon — real validity periods, all 20 balances unchanged, deployed.
+- Built the referral free-trial flow — server-validated slugs, one-trial-per-contact guard; booking QA 91/91 on preview.
+
 ## 2026-10-21
 
 - Cut a private desktop app's CI bill to near zero — self-hosted Mac runner, hosted minutes only on tags; v0.4.2 → v0.4.6.
