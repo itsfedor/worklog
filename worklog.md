@@ -2,6 +2,14 @@
 
 Daily entries of real work — appended automatically by a scheduled job.
 
+## 2026-10-23
+
+- Anchored six progress cards to the live course — read-only scan stores current course, lesson and last 12 lessons.
+- Stopped quarter levels from falling below the starting level and fixed 4.4–4.9 rounding that flattened growth.
+- Goal dates now count lessons, not months — 64 with regular homework, 96 with rare; six cards re-rendered.
+- Deployed the progress page — production HTML byte-identical to local, and its API answers 401 without a session.
+- Ranked 10 ESL teacher pain points from 15.7k community messages — 1,104 authors, ads filtered out.
+
 ## 2026-10-22
 
 - Built an answer-engine visibility tracker — 15 prompts across Tavily and DeepSeek, 90 citation slots scored, JSONL history.
