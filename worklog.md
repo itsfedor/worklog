@@ -2,6 +2,15 @@
 
 Daily entries of real work — appended automatically by a scheduled job.
 
+## 2026-10-25
+
+- Built `mcbuild`: cuts regions with full block states and emits datapacks — a mirrored gate matched 1,763/1,792 cells.
+- Split progression into two axes — auto rank by lifetime earnings plus teacher-set CEFR; 24 files deployed, clean restart.
+- Shipped a 25-question `/cefr` placement test — clickable answers, listening audio, 30-day cooldown, teacher overrides; bot scored 25/25.
+- Fixed 13 NPC quests that could never close — removed the duplicate first stage and added an explicit return step.
+- Fixed a ledger bug that zeroed a lesson balance — carry-over now books first; 6/6 API cases passed.
+- Fixed schedule sync reverting every move — conflicts now resolve by latest edit, verified on push, pull and equal-time cases.
+
 ## 2026-10-23
 
 - Anchored six progress cards to the live course — read-only scan stores current course, lesson and last 12 lessons.
