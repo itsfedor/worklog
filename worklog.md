@@ -2,6 +2,14 @@
 
 Daily entries of real work — appended automatically by a scheduled job.
 
+## 2026-10-26
+
+- Put the site on a free-trial promo — bookings confirm instantly, no payment step; 46/46 free-mode, 91/91 paid-mode QA.
+- Rewrote both offers for the free trial — `/offer/trial/` now edition 26.10.2026, and production HTML matched local byte for byte.
+- Built BuildKit, a headless-build Paper plugin — 23 classes, 3,421 lines, one `/bk` for save, place/rotate, grid, run, walkcheck, undo.
+- Cleared all six acceptance criteria — 5,000-command script in 0.2 s at TPS 20.00, undo restored with 0 differences.
+- Deployed it live — jar sha256 matched on read-back, plugin enabled at TPS 20.0, server returned to its prior state.
+
 ## 2026-10-25
 
 - Built `mcbuild`: cuts regions with full block states and emits datapacks — a mirrored gate matched 1,763/1,792 cells.
