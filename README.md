@@ -7,7 +7,7 @@
 
 # 📓 Worklog
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](LICENSE)
 
 A daily, machine-readable log of public work. The log keeps the profile honest
 and alive: what was actually built, fixed, or shipped each day, in the owner's
@@ -36,4 +36,4 @@ own words. No filler, real entries only.
 
 ## License
 
-[MIT](LICENSE)
+AGPL-3.0. See [LICENSE](LICENSE). If AGPL does not fit your use case, a commercial license is available — [COMMERCIAL.md](COMMERCIAL.md).
