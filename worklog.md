@@ -2,6 +2,15 @@
 
 Daily entries of real work — appended automatically by a scheduled job.
 
+## 2026-10-27
+
+- Published two new public repos — `buildkit-mc` (Paper plugin) and `mc-render` (voxel renderer), both MIT with docs and assets.
+- Standardised licences across 15 public repos — MIT by default, Apache-2.0 on four flagships, NOTICE and CONTRIBUTING with a CLA.
+- CI workflows now run in 10 repos and Dependabot in 6; a full-history secret scan found no credentials.
+- Rewrote the profile README — licensing section, CLI row, three case studies in `CASES.md`, cards for both new repos.
+- Built a C1 lesson on AI forecasts — 34 exercises, six stages, 23 listening gaps gated against the transcript.
+- Repositioned LinkedIn from ESL tutor to automation work — new headline, industry and a 1,100-character About.
+
 ## 2026-10-26
 
 - Put the site on a free-trial promo — bookings confirm instantly, no payment step; 46/46 free-mode, 91/91 paid-mode QA.
