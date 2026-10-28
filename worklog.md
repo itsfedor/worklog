@@ -2,6 +2,13 @@
 
 Daily entries of real work — appended automatically by a scheduled job.
 
+## 2026-10-28
+
+- Added three answer keys to the B2 midterms lesson — 19 article corrections with why and spoken variants; 11 exercises verified.
+- Answer keys students read now ship as Text blocks — Notes paint their body accent colour, unreadable past two lines.
+- Renumbered a lesson section with one `SaveExercisesPosition` call instead of per-item saves; read-back stayed sequential.
+- Restored the daily dashboard deploy — wrangler was missing on the VPS, an npx shim pushed it; `/dashboard/` answers 200.
+
 ## 2026-10-27
 
 - Published two new public repos — `buildkit-mc` (Paper plugin) and `mc-render` (voxel renderer), both MIT with docs and assets.
