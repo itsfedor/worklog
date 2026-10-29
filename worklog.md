@@ -2,6 +2,14 @@
 
 Daily entries of real work — appended automatically by a scheduled job.
 
+## 2026-10-29
+
+- Fixed Meta pixel CSP — added the pixel origin to `connect-src`, deployed, verified the live header on itsfedor.cc.
+- Shipped JSON-LD on four pages (Person, WebSite, Service, Product, CollectionPage) plus an IndexNow key; three engines answered 202.
+- Schedule sync moved from daily to every 3 hours; a no-LLM timer keeps the live lesson indicator current.
+- Hid the dashboard prediction block behind one `SHOW_PREDICTION` flag — full version archived, revert is a single flip.
+- Audited a 220k-line open-source agent platform for reuse — kept its prompt-cache split and worktree delivery contract.
+
 ## 2026-10-28
 
 - Added three answer keys to the B2 midterms lesson — 19 article corrections with why and spoken variants; 11 exercises verified.
