@@ -2,6 +2,12 @@
 
 Daily entries of real work — appended automatically by a scheduled job.
 
+## 2026-10-30
+
+- Hid the progress card behind one `SHOW_PROGRESS` flag — page and data intact, live file md5-matched the build.
+- Wrote a token-guarded HTTP→BLE bridge so a headless VPS can drive a BLE peripheral — 9 endpoint checks green.
+- Mapped four prompt-to-video routes — open weights, hosted APIs, text→3D→Blender, code animation — with cost and GPU floor.
+
 ## 2026-10-29
 
 - Fixed Meta pixel CSP — added the pixel origin to `connect-src`, deployed, verified the live header on itsfedor.cc.
