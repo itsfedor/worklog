@@ -2,6 +2,14 @@
 
 Daily entries of real work — appended automatically by a scheduled job.
 
+## 2026-11-01
+
+- Added six timed IELTS Part-3 listening sets — 40 questions, 40/40 keys cross-checked against the marked answers.
+- Each set: questions → recording → hidden note with key table, per-question why and speaker-labelled transcript.
+- API read-back: 19 items, 40 dropdowns, 6 embeds, 8-minute timers, all keys hidden from pupils.
+- Section sort is write-ignored — reordered the new section through one position call instead.
+- Pipeline packaged as nine scripts and written back into the transfer skill, so the next batch runs headless.
+
 ## 2026-10-30
 
 - Hid the progress card behind one `SHOW_PROGRESS` flag — page and data intact, live file md5-matched the build.
