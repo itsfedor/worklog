@@ -2,6 +2,15 @@
 
 Daily entries of real work — appended automatically by a scheduled job.
 
+## 2026-11-02
+
+- Built a single-file 9×9 mandala chart app — 30 KB, zero dependencies, fully offline.
+- 81 editable cells: goal → 8 pillars → 64 actions, autosave, JSON round-trip, A4 PDF, RU/EN.
+- Browser-verified at 1440×900 and 390×844 — square grid, no clipping, type auto-fits.
+- Turned off 34 timer blocks in two IELTS lessons — 55 edits applied, 12 pages read back clean.
+- Extracted `sanitize_spec()` plus a phrase table; wired into three builders so rebuilds stay timer-free.
+- Before/after diff: same exercise ids, gap counts, markers, images, audio — content untouched.
+
 ## 2026-11-01
 
 - Added six timed IELTS Part-3 listening sets — 40 questions, 40/40 keys cross-checked against the marked answers.
