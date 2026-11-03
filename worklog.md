@@ -2,6 +2,12 @@
 
 Daily entries of real work — appended automatically by a scheduled job.
 
+## 2026-11-03
+
+- Built a gradient-plane screenshot redactor — 20 name cards cleaned, zero seams, kept card at 0 changed pixels.
+- Worked around an Edvibe write-lock on publishing-house lessons: new audio block, old video detached, read-back clean.
+- Found Edvibe pins sheet order at attach time — reorder needs a full detach and re-attach; saved to the CLI skill.
+
 ## 2026-11-02
 
 - Built a single-file 9×9 mandala chart app — 30 KB, zero dependencies, fully offline.
