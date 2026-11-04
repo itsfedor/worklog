@@ -2,6 +2,15 @@
 
 Daily entries of real work — appended automatically by a scheduled job.
 
+## 2026-11-04
+
+- Rewrote the 9×9 mandala app as a three-step flow: goal → 8 pillars → 64 actions.
+- The panel morphs into the center cell in 950 ms; pillars and blocks cascade in.
+- Verified at 1440×900 and 390×844 — reduced-motion honored, A4 print stays one page.
+- Collapsed the dashboard's 8 equal KPI tiles into a 3-tile row — calendar up 110 px.
+- Cut lime to one control, moved today to a hairline; zero overflow at 1440/1024/390.
+- Wrote the KPI grouping rule into the dashboard skill so the 4×2 grid cannot return.
+
 ## 2026-11-03
 
 - Built a gradient-plane screenshot redactor — 20 name cards cleaned, zero seams, kept card at 0 changed pixels.
