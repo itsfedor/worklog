@@ -2,6 +2,13 @@
 
 Daily entries of real work — appended automatically by a scheduled job.
 
+## 2026-11-05
+
+- Published `mandala-9x9` as a public MIT repo — one 48 KB HTML file, zero dependencies, works offline.
+- The planner runs 1 goal → 8 pillars → 64 actions, all 81 cells editable; autosave, JSON export/import, A4 print.
+- Shipped light and dark README banners plus two demo GIFs showing onboarding, editing and progress.
+- Live demo on GitHub Pages verified byte-identical to the repo file: HTTP 200, title «Мандала 9×9».
+
 ## 2026-11-04
 
 - Rewrote the 9×9 mandala app as a three-step flow: goal → 8 pillars → 64 actions.
