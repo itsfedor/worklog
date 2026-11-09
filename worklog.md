@@ -2,6 +2,14 @@
 
 Daily entries of real work — appended automatically by a scheduled job.
 
+## 2026-11-09
+
+- Published `telegram-live-call` as a public MIT repo — an owner-only bridge for live voice calls to an AI assistant.
+- Pipeline: Telegram audio → Deepgram streaming STT → OpenRouter → ElevenLabs PCM16 frames, paced back as speech.
+- Consent-gated CLI: explicit `--confirm`, owner allowlist, 60 s default timeout, 300 s max; no autodial.
+- Verified locally: 136 offline tests pass — fake providers, session locking, framing, interruption cleanup.
+- Ships a generic agent skill and setup script; README documents a real two-way prototype call on Linux arm64.
+
 ## 2026-11-05
 
 - Published `mandala-9x9` as a public MIT repo — one 48 KB HTML file, zero dependencies, works offline.
