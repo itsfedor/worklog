@@ -2,6 +2,13 @@
 
 Daily entries of real work — appended automatically by a scheduled job.
 
+## 2026-11-11
+
+- Shipped "Nutrition Score Europe", a six-section speaking lesson on the updated Nutri-Score label — flipped start, 41 exercises.
+- The watching stage runs a news report in timed parts with 12 exact-listening gaps, plus fact-vs-claim and critical-thinking tasks.
+- Cover art rendered locally with a small PIL script — score tiles, traffic-light emoji, emblem; no stock images.
+- Read back from the platform: six sections, 41 exercises, answer keys, hidden teacher notes, five-exercise homework pool.
+
 ## 2026-11-09
 
 - Published `telegram-live-call` as a public MIT repo — an owner-only bridge for live voice calls to an AI assistant.
