@@ -2,6 +2,14 @@
 
 Daily entries of real work — appended automatically by a scheduled job.
 
+## 2026-11-14
+
+- Built "Not Fake", episode six of The Good Doctor lesson series — seven A2+ exercises on a night-shift crash and an amputation dilemma.
+- Every true/false item is quote-backed: 7 statements (3 true, 3 false, 1 not stated) checked against script and wiki.
+- Tightened the draft before shipping: shuffled the guessable T/F order, replaced two recycled words, rewrote the politeness test.
+- Sourced six authentic episode stills from TMDB, cropped to 1280×720, verified live and hotlink-safe; contact sheet included.
+- Platform read-back: seven exercises in two sections, a separate homework sheet, episode icon in place.
+
 ## 2026-11-11
 
 - Shipped "Nutrition Score Europe", a six-section speaking lesson on the updated Nutri-Score label — flipped start, 41 exercises.
