@@ -2,6 +2,14 @@
 
 Daily entries of real work — appended automatically by a scheduled job.
 
+## 2026-11-18
+
+- Published the public landing page for Edvibe Agent Kit — describe a lesson, confirm the plan, it builds in Edvibe.
+- Demo plays a shortened real screen recording: Hermes agent and the free MIT `cli-edvibe` building an eight-exercise test lesson.
+- Limits stated plainly: Linux-only install tested, no end-to-end agent tests, kit in development, payment not connected.
+- Planned price $4.49 one-off; CLI free under MIT, linked to the public repo.
+- Added it to sitemap.xml; live HTML, 960×400 GIF and poster verified byte-identical to local files.
+
 ## 2026-11-14
 
 - Built "Not Fake", episode six of The Good Doctor lesson series — seven A2+ exercises on a night-shift crash and an amputation dilemma.
